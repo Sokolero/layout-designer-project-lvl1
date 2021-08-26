@@ -1,0 +1,23 @@
+.w-100 {
+  min-width: 100%;
+}
+
+.content-col {
+  flex-basis: 50%;
+  justify-content: flex-start;
+}
+
+.header-section {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.header-title {
+  margin-bottom: 185px;
+}
+
+.header {
+  position: relative;
+}

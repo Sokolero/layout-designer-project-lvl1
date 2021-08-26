@@ -1,1 +1,22 @@
 /** CSS STYLE **/
+/* dark: #2A2626; */
+/* primary: #FE8A02;
+light: #F5F4F0;
+white 50: #D7CCC0;
+white: #ffffff;
+dark 50: #908D8B;
+brown: #B09A81;
+primary dark: #42413C;
+ blue: #1085c5 */
+@import "base.css";
+@import "colors.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+@font-face {
+  font-family: "Neucha";
+  src: local("Neucha"),
+  url("../fonts/Neucha-Regular.ttf");
+  font-weight: normal;
+}

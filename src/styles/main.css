@@ -1,0 +1,34 @@
+.video-section {
+  justify-content: center;
+  height: 814px;
+  border: 1px solid black;
+}
+
+.video {
+  width: 919px;
+  height: 569px;
+  border: 1px solid black;
+}
+
+.nav-section {
+  height: 891px;
+  background-color: #42413C;
+}
+
+/* Premature-section */
+.premature-optimizatioin-section {
+  position: relative;
+  padding: 100px 0;
+}
+
+.section-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.example-title {
+  font-size: 14px;
+  font-variant: small-caps;
+  color: #B09A81;
+  margin-left: 10px;
+}

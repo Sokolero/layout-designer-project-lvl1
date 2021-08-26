@@ -1,0 +1,56 @@
+.footer {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.bg-dark-primary {
+  background-color: #42413C;
+  color: white;
+}
+
+.footer-row {
+  display: flex;
+  padding: 55px 55px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label {
+  display: block;
+}
+
+.input-row {
+  height: 50px;
+}
+
+.email-input {
+  width: 415px;
+  height: 100%;
+}
+
+.form-small-text {
+  font-size: 12px;
+}
+
+.form-small-text a {
+  color: #ffffff;
+}
+
+.send {
+  width: 70px;
+  height: 100%;
+  background-image: url(../../images/send.svg);
+  background-color: #FE8A02;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.send:hover {
+  background-color: #EA7600;
+
+}
+
+.flex-d-column {
+  flex-direction: column;
+}

@@ -1,0 +1,48 @@
+/* background and text colors */
+.txt-dark {
+  color: #2A2626;
+}
+
+.txt-white {
+  color: #ffffff;
+}
+
+.txt-primary {
+  color: #FE8A02;
+}
+
+.txt-blue {
+  color: #1085c5;
+}
+
+.txt-white-50 {
+  color: #D7CCC0;
+}
+
+.txt-dark-50 {
+  color: #908D8B;
+}
+
+.bg-light {
+  background-color: #F5F4F0;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-primary-dark {
+  background-color: #42413C;
+}
+
+.bg-brown {
+  background-color: #B09A81;
+}
+
+.bg-primary {
+  background-color: #FE8A02;
+}
+
+.bg-primary-hover {
+  background-color: #EA7600;
+}
