@@ -31,38 +31,40 @@ h4 {
 }
 
 .container {
+  position: relative;
   margin: 0 auto;
   max-width: 1110px;
+  padding: 100px 0;
 }
 
-.btn {
+.section-row {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 51px;
-  width: 149px;
-  height: 48px;
-  color: #ffffff;
-  text-decoration: none;
-  background: #FE8A02;;
 }
 
-.btn:hover {
-  background: #EA7600;
+.justify-between {
+  justify-content: space-between;
 }
 
-.bg-pattern {
+.bg-pattern::before {
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.06;
   background-color: #F5F4F0;
   background-image: url(../../images/background.png);
-  background-position: left top;
   background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+}
+
+.w-100 {
+  min-width: 100%;
+}
+
+.mb-140px {
+  margin-bottom: 140px;
 }
 
 .mr-15 {
@@ -91,19 +93,4 @@ h4 {
 
 .txt-center {
   text-align: center;
-}
-
-.main-img {
-  max-width: 952px;
-  height: auto;
-}
-
-.main-img img {
-  width: 100%;
-}
-
-.abs-top-right {
-  position: absolute;
-  right: 0;
-  top: 55px;
 }
