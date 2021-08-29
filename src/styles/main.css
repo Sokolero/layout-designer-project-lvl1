@@ -15,14 +15,36 @@
 
 .example-title {
   font-size: 14px;
+  font-family: "Open Sans", sans-serif;
   font-variant: small-caps;
-  color: #B09A81;
-  margin-left: 10px;
+  padding: 6px 0 4px 10px;
 }
 
 .video-section-container {
   padding-bottom: 0px;
   margin-bottom: -100px;
+}
+
+.section-title {
+  font-family: Neucha, sans-serif;
+}
+
+.section-image img {
+  vertical-align: middle;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.over-title {
+  font-size: 24px;
+  line-height:
+}
+
+.under-title {
+  font-size: 34px;
+  line-height: 1.2;
 }
 
 .mb-27px {
