@@ -1,0 +1,48 @@
+.nav-container {
+  padding: 200px 0 100px 0;
+  max-width: 1140px;
+}
+
+.nav-title-card {
+  margin: 0 15px 20px 15px;
+  padding: 0 0;
+  width: 350px;
+  height: 323px;
+}
+
+.nav-card {
+  color: #2A2626;
+  width: 100%;
+  height: 100%;
+  background-color: #F5F4F0;
+  padding: 24px 24px 24px 24px;
+}
+
+.nav-title {
+  color: #ffffff;
+  font-size: 52px;
+  background-color: inherit;
+}
+
+.card-number {
+  margin-bottom: 40px;
+  font-size: 64px;
+  line-height: 1.0;
+  font-family: Neucha, sans-serif;
+
+}
+
+.card-title {
+  color: #FE8A02;
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: #2A2626;
+  width: 350px;
+  height: auto;
+  margin: 0 15px 20px 15px;
+  background-color: #F5F4F0;
+}
