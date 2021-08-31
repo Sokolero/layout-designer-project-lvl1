@@ -46,3 +46,8 @@
   margin: 0 15px 20px 15px;
   background-color: #F5F4F0;
 }
+
+.author-info {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
