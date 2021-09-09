@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.distortion-of-ovelty-section {
+.distortion-of-novelty-section {
   position: relative;
 }
 
@@ -26,14 +26,13 @@
 
 .video-section-title {
   text-align: center;
-}
-
-.section {
-  position: relative;
+  padding-top: 10px;
 }
 
 .example-title {
+  line-height: 1.0;
   font-size: 14px;
+  text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   font-variant: small-caps;
   padding: 6px 0 4px 10px;
@@ -57,8 +56,9 @@
 }
 
 .over-title {
+  margin-bottom: 5px;
   font-size: 24px;
-  line-height:
+  line-height: 1.2;
 }
 
 .under-title {
@@ -66,8 +66,12 @@
   line-height: 1.2;
 }
 
-.mb-27px {
-  margin-bottom: 27px;
+.pr-20px {
+  padding-right: 20px;
+}
+
+.mb-22px {
+  margin-bottom: 22px;
 }
 
 .mb-30px {

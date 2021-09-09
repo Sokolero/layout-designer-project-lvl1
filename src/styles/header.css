@@ -2,28 +2,33 @@
   position: relative;
 }
 
+.relative {
+  position: relative;
+}
+
 .header-title {
   margin-bottom: 185px;
 }
 
-.main-img {
-  max-width: 952px;
-  height: 525px;
+.main-image {
   position: absolute;
+  height: 525px;
+  width: auto;
   top: 55px;
   right: -270px;
 }
 
-.main-img img {
-  width: 100%;
-}
-
 .btn {
+  display: inline-block;
   padding: 12px 24px;
   color: #ffffff;
+  font-family: "OpenSans";
   font-weight: bold;
+  font-variant: small-caps;
+  font-size: 16px;
+  text-transform: uppercase;
   text-decoration: none;
-  background: #FE8A02;;
+  background: #FE8A02;
 }
 
 .btn:hover {
@@ -34,8 +39,8 @@
   flex-basis: 50%;
 }
 
-.mb-40px {
-  margin-bottom: 40px;
+.mb-34px {
+  margin-bottom: 34px;
 }
 
 .mr-15px {

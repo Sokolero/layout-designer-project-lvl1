@@ -19,12 +19,14 @@
 }
 
 .nav-title {
+  padding-top: 5px;
   color: #ffffff;
   font-size: 52px;
   background-color: inherit;
 }
 
 .card-number {
+  padding-top: 5px;
   margin-bottom: 40px;
   font-size: 64px;
   line-height: 1.0;
@@ -34,7 +36,7 @@
 
 .card-title {
   color: #FE8A02;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 
 .nav-link {
@@ -50,4 +52,8 @@
 .author-info {
   margin-bottom: 16px;
   line-height: 1.6;
+}
+
+.pt-15px {
+  padding-top: 15px;
 }

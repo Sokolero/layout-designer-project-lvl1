@@ -6,12 +6,13 @@
 
 html {
   color: #2A2626;
-  font: 16px/1.6em "Open Sans", sans-serif;
+  font: 16px/1.6em "OpenSans", sans-serif;
 }
 
 h1, h2, h3, h4 {
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
+  font-weight: normal;
 }
 
 h1 {
@@ -62,20 +63,31 @@ h4 {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../../images/background.png);
+  width: 1440px;
+  height: 960px;
+
+  background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: left;
+  background-clip: border-box;
   opacity: 0.1;
+}
+
+.fs-14px {
+  font-size: 14px;
 }
 
 .w-100 {
   min-width: 100%;
 }
 
-.mb-140px {
-  margin-bottom: 140px;
+.mb-200px {
+  margin-bottom: 200px;
+}
+
+.mb-15px {
+  margin-bottom: 15px;
 }
 
 .mr-15 {
@@ -84,6 +96,10 @@ h4 {
 
 .ml-15 {
   margin-left: 15px;
+}
+
+.mb-70px {
+  margin-bottom: 70px;
 }
 
 .mb-63px {

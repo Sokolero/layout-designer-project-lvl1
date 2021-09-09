@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Layout-designer-project-lvl1 user-e992e2ec0f4fea43</title>
-
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
   <header class="header-section bg-pattern bg-light">
-    <div class="container">
-      <div class="section-row mb-140px">
+    <div class="container relative">
+      <div class="section-row mb-200px">
         <h1>
           <span class="txt-primary">
             Когнитивные<br>
@@ -19,6 +19,7 @@
           </span>
           <span class="txt-dark">в программировании</span>
         </h1>
+        <img class="main-image" src="images/main.png" alt="hexlet-style-programmer-image">
       </div>
       <div class="section-row">
         <div class="main-text mr-15px">
@@ -30,21 +31,18 @@
             к сожалению, нет.
         </div>
         <div class="main-text ml-15px">
-          <p>
+          <p class="mb-15px">
             Вместе они формируют что-то вроде замкнутого цикла,
             и это может привести к длительной потере продуктивности,
             багам и бесконечному разочарованию.
           </p>
-          <p class="mb-40px">
+          <p class="mb-34px">
             Если мы сможем минимизировать воздействие одного или нескольких
              из этих факторов, то сможем сломать и цикл,
             а остатки нейтрализовать.
           </p>
-          <a href="#navigation" class="btn" role="button">Подробнее</a>
+          <a href="#navigation" class="btn" role="button">подробнее</a>
         </div>
-      </div>
-      <div class="main-img">
-        <img src="/images/main.png" alt="hexlet-style-programmer-image">
       </div>
     </div>
   </header>
@@ -53,7 +51,7 @@
     <!-- video-section -->
     <section class="video-section">
       <div class="container video-section-container">
-        <div class="section-row justify-center mb-27px">
+        <div class="section-row justify-center mb-22px">
           <h2 class="video-section-title">
             Что же это такое, <br>
             <span class="txt-primary">когнитивные искажения?</span>
@@ -67,10 +65,11 @@
         </div>
       </div>
     </section>
+
     <!-- navigation-section -->
     <nav class="nav bg-primary-dark" id="navigation">
       <div class="container nav-container">
-        <div class="section-row flex-wrap justify-between">
+        <div class="section-row flex-wrap justify-between pt-15px">
           <div class="nav-title-card">
             <h2 class="nav-title">
               <span class="txt-primary">5 когнитивных <br> искажений</span><br>
@@ -152,11 +151,11 @@
       </div>
     </nav>
     <!-- ikea effect -->
-    <section id="ikea-effect" class="ikea-section bg-pattern bg-light">
+    <section id="ikea-section" class="ikea-section bg-pattern bg-light">
       <div class="container">
         <div class="section-row">
           <div class="section-image mb-100px mr-15px">
-            <img src="../images/1.png" alt="two human about laptop">
+            <img src="images/1.png" alt="two human about laptop">
           </div>
           <div class="section-title ml-15px">
             <p class="over-title txt-dark-50">Когнитивные искажения<p>
@@ -171,12 +170,12 @@
           <h4 class="example-title txt-white">как проявляется</h4s>
         </div>
         <div class="section-row">
-          <p class="main-text">
+          <p class="main-text mr-15px">
             Когнитивное искажение называется так из-за того, что потребители
             зачастую предпочитают покупать товары, которые они могут собрать
             сами, а не уже собранные кем-то.
           </p>
-          <p class="main-text">
+          <p class="main-text ml-15px">
             Мы склонны переоцнивать наши собственные решения и недооценивать
             решения других. Если вы когда-то работали в компании, которая
             использовала тупой внутренний инструмент вместо более удобного
@@ -186,7 +185,7 @@
       </div>
     </section>
     <!-- premature-optimizatioin -->
-    <section id="premature-optimizatioin" class="premature-section txt-white bg-pattern bg-brown">
+    <section id="premature-section" class="premature-section txt-white bg-pattern bg-brown">
       <div class="container">
         <div class="section-row">
           <div class="section-title">
@@ -195,18 +194,18 @@
             <p class="under-title">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</h3>
           </div>
           <div class="section-image mb-100px">
-            <img src="../images/2.png" alt="human-launches-rocket">
+            <img src="images/2.png" alt="human-launches-rocket">
           </div>
         </div>
         <div class="example-title-block section-row bg-white mb-20px">
           <h4 class="example-title txt-brown">как проявляется</h4>
         </div>
         <div class="section-row">
-          <p class="main-text">
+          <p class="main-text mr-15px">
             Если вы добавите аэродинамический спойлер к своему
             старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.
           </p>
-          <p class="main-text">
+          <p class="main-text ml-15px">
             Отличный пример: писать максимально подтюненный и
             высокопроизводительный код для всего лишь экспериментального проекта.
           </p>
@@ -214,11 +213,11 @@
       </div>
     </section>
     <!-- novelty-error -->
-    <section id="distortion-of-novelty" class="distortion-of-novelty-section bg-pattern bg-light">
+    <section id="distortion-of-novelty-section" class="distortion-of-novelty-section bg-pattern bg-light">
       <div class="container">
         <div class="section-row">
           <div class="section-image mb-100px mr-15px">
-            <img src="../images/3.png" alt="human keeps light bulb">
+            <img src="images/3.png" alt="human keeps light bulb">
           </div>
           <div class="section-title ml-15px">
             <p class="over-title txt-dark-50">Когнитивные искажения<p>
@@ -233,13 +232,13 @@
           <h4 class="example-title txt-white">как проявляется</h4s>
         </div>
         <div class="section-row">
-          <p class="main-text">
+          <p class="main-text mr-15px">
             Часто это искажение настигает нас, когда нужно решение проблемы
             и… о! Мы как раз только что решили подобную проблему!
             Давайте использовать это же решение, потому что оно сработало,
             и мы помним как!
           </p>
-          <p class="main-text">
+          <p class="main-text ml-15px">
             Вы замечаете, что пользуетесь теми же рабочими методиками
             раз за разом? Если да, возможно, вы смотрите на разные проблемы
             под одним и тем же углом.
@@ -259,19 +258,19 @@
             </p>
           </div>
           <div class="section-image mb-100px">
-            <img src="../images/4.png" alt="human-about-mountain">
+            <img src="images/4.png" alt="human-about-mountain">
           </div>
         </div>
         <div class="example-title-block section-row bg-white mb-20px">
           <h4 class="example-title txt-brown">как проявляется</h4>
         </div>
         <div class="section-row">
-          <p class="main-text">
+          <p class="main-text mr-15px">
             Вы когда-нибудь откладывали написание теста? Ловили себя на
             использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается
             гиперболическое обесценивание.
           </p>
-          <p class="main-text">
+          <p class="main-text ml-15px">
             Немедленная выгода от использования чего-то быстродоступного
             значительно смягчает боль, которую нужно перетерпеть, чтобы
             усвоить правильный синтаксис для перемещения на нужную строчку.
@@ -286,7 +285,7 @@
       <div class="container">
         <div class="section-row">
           <div class="section-image mb-100px mr-15px">
-            <img src="../images/5.png" alt="human is writing a plan">
+            <img src="images/5.png" alt="human is writing a plan">
           </div>
           <div class="section-title ml-15px">
             <p class="over-title txt-dark-50">Когнитивные искажения<p>
@@ -300,13 +299,13 @@
           <h4 class="example-title txt-white">как проявляется</h4s>
         </div>
         <div class="section-row">
-          <p class="main-text">
+          <p class="main-text mr-15px">
             Одно из искажений, которое должно признать большинство из нас.
              И менеджеры проекта, и сами пользователи продукта — все склонны
              ставить сроки, в которые невозможно закончить запланированное.
           </p>
-          <p class="main-text">
-            Это отлично выражается в старом афоризме:
+          <p class="main-text ml-15px">
+            Это отлично выражается в старом афоризме:<br><br>
             Первые 90% готового кода отнимают первые 90% времени разработки.
             Оставшиеся 10% отнимают вторые 90% времени разработки.
           </p>
@@ -315,32 +314,28 @@
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="footer-row bg-dark-primary">
-      <div class="footer-title">
-        <h3 class="">
-          Хотите узнать больше?<br>
-          Подпишитесь на обновления
-        </h3>
+  <footer class="footer-section">
+    <div class="container">
+      <div class="section-row bg-primary-dark txt-white mb-70px">
+        <div class="footer-col mr-15px pt-55px pb-55px pl-55px">
+          <h3>Хотите узнать больше?<br>Подпишитесь на обновления</h3>
+        </div>
+        <div class="footer-col ml-15px pt-38px pb-40px pr-55px">
+          <form class="form" action="index.html" method="post">
+            <label class="label" for="email">Электронная почта</label>
+            <input class="email-input" id="email" type="email" name="email" value="" placeholder="Ваша электронная почта">
+            <input class="send-btn" type="submit" value=" ">
+          </form>
+          <p class="form-small-text">Подписываясь, вы принимаете <a class="txt-white" href="#">правила сервиса</a></p>
+        </div>
       </div>
-      <div class="footer-form-container">
-        <form class="form" action="index.html" method="post">
-          <label class="label" for="email">Электронная почта</label>
-          <div class="input-row">
-            <input class="email-input" id="email-id" type="email" name="email" value="" placeholder="Ваша электронная почта">
-            <div class="send">
-              <input type="submit" name="" value=" ">
-            </div>
-          </div>
-        </form>
-        <p class="form-small-text">Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
+      <div class="section-row df-column">
+        <p class="txt-center fs-14px mb-15px">&copy; 2021 Роман Соколенко</p>
+        <p class="txt-center fs-14px mb-15px"> По материалам статьи <a class="txt-blue" target="blank" href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
+        <p class="txt-center fs-14px"> <a class="author-info txt-blue" target="blank" href="https://ru.hexlet.io/my">Курсы программирования Hexlet</a> </p>
       </div>
-    </div>
-    <div class="footer-row flex-d-column">
-      <p class="author-info" >&#169 2021 Роман Соколенко</p>
-      <p class="author-info"> По материалам статьи <a class="txt-blue" href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
-      <p> <a class="author-info txt-blue" href="https://ru.hexlet.io/my">Курсы программирования Hexlet</a> </p>
     </div>
   </footer>
+
 </body>
 </html>

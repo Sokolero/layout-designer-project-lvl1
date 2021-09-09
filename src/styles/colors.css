@@ -1,6 +1,7 @@
 /* background and text colors */
 .txt-dark {
   color: #2A2626;
+  font-weight: normal;
 }
 
 .txt-white {
@@ -9,6 +10,7 @@
 
 .txt-primary {
   color: #FE8A02;
+  font-weight: normal;
 }
 
 .txt-blue {
@@ -25,6 +27,10 @@
 
 .txt-brown {
   color: #B09A81;
+}
+
+.txt-blue {
+  color: #1085C5;
 }
 
 .bg-light {
