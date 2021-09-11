@@ -49,13 +49,15 @@
 
 .section-image img {
   vertical-align: middle;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .title {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
 .over-title {
+  display: inline-block;
   margin-bottom: 5px;
   font-size: 24px;
   line-height: 1.2;
@@ -64,6 +66,10 @@
 .under-title {
   font-size: 34px;
   line-height: 1.2;
+}
+
+.pt-5px {
+  padding-top: 5px;
 }
 
 .pr-20px {

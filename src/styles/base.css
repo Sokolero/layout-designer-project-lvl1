@@ -1,7 +1,10 @@
 * {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
   padding: 0 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -13,11 +16,16 @@ h1, h2, h3, h4 {
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
   font-weight: normal;
-  color: inherit;
+  color: #FE8A02;
 }
 
 h1 {
   font-size: 72px;
+  margin-top: 0;
+}
+
+.mt-5px {
+  margin-top: 5px;
 }
 
 h2 {
@@ -30,6 +38,11 @@ h3 {
 
 h4 {
   font-size: 24px;
+}
+
+.mp-0 {
+  margin: 0;
+  padding: 0 0;
 }
 
 .container {
@@ -64,11 +77,11 @@ h4 {
   position: absolute;
   left: 0;
   top: 0;
-  width: 1440px;
-  height: 100%;
+  right: 0;
+  bottom: 0;
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: 100% 0%;
   opacity: 0.1;
 }
 
@@ -80,8 +93,8 @@ h4 {
   min-width: 100%;
 }
 
-.mb-200px {
-  margin-bottom: 200px;
+.mb-130px {
+  margin-bottom: 130px;
 }
 
 .mb-15px {
@@ -108,8 +121,8 @@ h4 {
   margin-bottom: 100px;
 }
 
-.mb-20px {
-  margin-bottom: 20px;
+.mb-5px {
+  margin-bottom: 5px;
 }
 
 .txt-left {
