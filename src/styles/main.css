@@ -24,7 +24,6 @@
   margin: 0 auto;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-
 }
 
 .video-section-title {
@@ -36,17 +35,16 @@
 .example-title {
   padding: 8px 0 6px 10px;
 
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  line-height: 1.0;
   font-weight: bold;
-  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
   font-variant: small-caps;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 .video-section-container {
   margin-bottom: -92px;
-  padding-bottom: 0px;
 }
 
 .section-title {
@@ -66,7 +64,7 @@
 .over-title {
   display: inline-block;
   margin-bottom: 5px;
-  
+
   font-size: 24px;
   line-height: 1.2;
 }

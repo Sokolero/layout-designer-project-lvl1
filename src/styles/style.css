@@ -6,25 +6,25 @@
 @import "navigation.css";
 
 @font-face {
+  font-weight: normal;
   font-family: "Neucha";
-  src: local("Neucha"),
-  url("../fonts/Neucha-Regular.ttf");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "OpenSans";
-  font-weight: normal;
   src:
-   local("OpenSans"),
-   url("../fonts/OpenSans-Regular.ttf");
-
+    local("Neucha"),
+    url("../fonts/Neucha-Regular.ttf");
 }
 
 @font-face {
+  font-weight: normal;
   font-family: "OpenSans";
+  src:
+    local("OpenSans"),
+    url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
   font-weight: bold;
+  font-family: "OpenSans";
   src:
-   local("OpenSans-bold"),
-   url("../fonts/OpenSans-Bold.ttf");
+    local("OpenSans-bold"),
+    url("../fonts/OpenSans-Bold.ttf");
 }
