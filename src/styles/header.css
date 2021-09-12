@@ -12,27 +12,30 @@
 
 .main-image {
   position: absolute;
-  height: 525px;
-  width: auto;
   top: 55px;
   right: -270px;
+
+  width: auto;
+  height: 525px;
 }
 
 .btn {
   display: inline-block;
   padding: 12px 24px;
-  color: #ffffff;
-  font-family: "OpenSans";
+
+  color: #fff;
+  font-family: "OpenSans", sans-serif;
   font-weight: bold;
   font-variant: small-caps;
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
-  background: #FE8A02;
+
+  background: #fe8a02;
 }
 
 .btn:hover {
-  background: #EA7600;
+  background: #ea7600;
 }
 
 .main-text {

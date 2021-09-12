@@ -8,20 +8,23 @@ body {
 }
 
 html {
-  color: #2A2626;
+  color: #2a2626;
   font: 16px/1.6em "OpenSans", sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: Neucha, sans-serif;
-  line-height: 1.2em;
+  color: #fe8a02;
   font-weight: normal;
-  color: #FE8A02;
+  line-height: 1.2em;
 }
 
 h1 {
-  font-size: 72px;
   margin-top: 0;
+  font-size: 72px;
 }
 
 .mt-5px {
@@ -47,9 +50,9 @@ h4 {
 }
 
 .container {
+  max-width: 1110px;
   position: relative;
   margin: 0 auto;
-  max-width: 1110px;
   padding: 100px 0;
 }
 
@@ -74,10 +77,10 @@ h4 {
 }
 
 .bg-pattern::before {
-  content: '';
   position: absolute;
-  left: 0;
+  content: '';
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
   background-image: url(../images/background.png);

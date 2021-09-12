@@ -1,6 +1,6 @@
 /* background and text colors */
 .txt-dark {
-  color: #2A2626;
+  color: #2a2626;
   font-weight: normal;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .txt-primary {
-  color: #FE8A02;
+  color: #fe8a02;
   font-weight: normal;
 }
 
@@ -18,23 +18,23 @@
 }
 
 .txt-white-50 {
-  color: #D7CCC0;
+  color: #d7ccc0;
 }
 
 .txt-dark-50 {
-  color: #908D8B;
+  color: #908d8b;
 }
 
 .txt-brown {
-  color: #B09A81;
+  color: #b09a81;
 }
 
 .txt-blue {
-  color: #1085C5;
+  color: #1085c5;
 }
 
 .bg-light {
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
 
 .bg-white {
@@ -42,17 +42,17 @@
 }
 
 .bg-primary-dark {
-  background-color: #42413C;
+  background-color: #42413c;
 }
 
 .bg-brown {
-  background-color: #B09A81;
+  background-color: #b09a81;
 }
 
 .bg-primary {
-  background-color: #FE8A02;
+  background-color: #fe8a02;
 }
 
 .bg-primary-hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }

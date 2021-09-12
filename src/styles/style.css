@@ -1,13 +1,3 @@
-/** CSS STYLE **/
-/* dark: #2A2626; */
-/* primary: #FE8A02;
-light: #F5F4F0;
-white 50: #D7CCC0;
-white: #ffffff;
-dark 50: #908D8B;
-brown: #B09A81;
-primary dark: #42413C;
- blue: #1085c5 */
 @import "base.css";
 @import "colors.css";
 @import "header.css";
@@ -24,14 +14,17 @@ primary dark: #42413C;
 
 @font-face {
   font-family: "OpenSans";
-  src: local("OpenSans"),
-  url("../fonts/OpenSans-Regular.ttf");
   font-weight: normal;
+  src:
+   local("OpenSans"),
+   url("../fonts/OpenSans-Regular.ttf");
+
 }
 
 @font-face {
   font-family: "OpenSans";
-  src: local("OpenSans-bold"),
-  url("../fonts/OpenSans-Bold.ttf");
   font-weight: bold;
+  src:
+   local("OpenSans-bold"),
+   url("../fonts/OpenSans-Bold.ttf");
 }
