@@ -35,7 +35,8 @@
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   font-variant: small-caps;
-  padding: 6px 0 4px 10px;
+  font-weight: bold;
+  padding: 8px 0 6px 10px;
 }
 
 .video-section-container {
@@ -66,6 +67,11 @@
 .under-title {
   font-size: 34px;
   line-height: 1.2;
+}
+
+.span {
+  display: block;
+  margin-top: 11px;
 }
 
 .pt-5px {

@@ -27,6 +27,14 @@
   padding-right: 55px;
 }
 
+.mb-72px {
+  margin-bottom: 72px;
+}
+
+.mb-14px {
+  margin-bottom: 14px;
+}
+
 .footer-col {
   flex-basis: 50%;
 }
@@ -42,6 +50,11 @@
   width: 415px;
   height: 50px;
   padding: 0 15px;
+  font-family: inherit;
+}
+
+.email-input::placeholder {
+  font-family: OpenSans
 }
 
 .send-btn {
