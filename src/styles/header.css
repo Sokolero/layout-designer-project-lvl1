@@ -1,8 +1,8 @@
-.header-section {
+/* .header-section {
   position: relative;
-}
+} */
 
-.relative {
+.pos-rel{
   position: relative;
 }
 
@@ -39,9 +39,13 @@
   background: #ea7600;
 }
 
-.main-text {
+.fb-50per {
   flex-basis: 50%;
 }
+
+/* .main-text {
+  flex-basis: 50%;
+} */
 
 .mb-35px {
   margin-bottom: 35px;

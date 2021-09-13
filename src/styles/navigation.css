@@ -46,7 +46,7 @@
 
 .nav-link {
   display: block;
-  width: 350px;
+
   height: auto;
   margin: 0 15px 20px 15px;
 
@@ -54,12 +54,8 @@
   text-decoration: none;
 
   background-color: #f5f4f0;
-}
 
-.author-info {
-  margin-bottom: 16px;
-
-  line-height: 1.6;
+  flex: 0 0 350px;
 }
 
 .pt-15px {

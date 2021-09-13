@@ -9,8 +9,8 @@
 </head>
 
 <body>
-  <header class="header-section bg-pattern bg-light">
-    <div class="container relative">
+  <header class="section bg-pattern bg-light">
+    <div class="container pos-rel">
       <div class="section-row mb-130px">
         <h1 class="mt-5px">
           <span class="txt-primary">
@@ -19,10 +19,10 @@
           </span>
           <span class="txt-dark">в программировании</span>
         </h1>
-        <img class="main-image" src="images/main.png" alt="hexlet-style-programmer-image">
+        <img class="main-image" src="images/main.png" loading="lazy" alt="hexlet-style-programmer-image">
       </div>
       <div class="section-row">
-        <div class="main-text mr-15px">
+        <div class="fb-50per mr-15px">
             <p>Мы, разработчики, часто сталкиваемся с проблемами,
             которые идут вразрез с нашей продуктивностью.
             Но мы часто игнорируем целостную картину. Некоторые
@@ -30,7 +30,7 @@
             Иногда с ними можно как-то справиться, а иногда,
             к сожалению, нет.</p>
         </div>
-        <div class="main-text ml-15px">
+        <div class="fb-50per ml-15px">
           <p class="mb-15px">
             Вместе они формируют что-то вроде замкнутого цикла,
             и это может привести к длительной потере продуктивности,
@@ -52,9 +52,9 @@
     <section class="video-section">
       <div class="container video-section-container">
         <div class="section-row justify-center mb-24px">
-          <h2 class="video-section-title mp-0 pt-5px">
-            Что же это такое, <br>
-            <span class="txt-dark">когнитивные искажения?</span>
+          <h2 class="video-section-title m-0 p-0 pt-5px">
+            Что же это такое,
+            <div class="txt-dark">когнитивные искажения?</div>
           </h2>
         </div>
         <div class="section-row justify-center mb-30px">
@@ -71,11 +71,9 @@
       <div class="container nav-container">
         <div class="section-row flex-wrap justify-between">
           <div class="nav-title-card">
-            <h2 class="nav-title mp-0">
-              <span class="txt-primary">5 когнитивных <br> искажений</span><br>
-              о существовании<br>
-              которых стоит<br>
-              помнить
+            <h2 class="nav-title m-0 p-0">
+              <div class="txt-primary">5 когнитивных искажений</div>
+              о существовании которых стоит помнить
             </h2>
           </div>
           <a class="nav-link" href="#ikea-effect">
@@ -83,26 +81,26 @@
               <div class="card-number">
                 1
               </div>
-              <h3 class="card-title mp-0">Эффект ИКЕА</h3>
+              <h3 class="card-title m-0 p-0">Эффект ИКЕА</h3>
               <p class="card-text">
                 Вы переоцениваете собственные решения, и, как следствие,
                 недооцениваете решения других.
               </p>
             </div>
           </a>
-          <a class="nav-link" href="#premature-optimizatioin">
+          <a class="nav-link" href="#premature-optimization">
             <div class="nav-card">
               <div class="card-number">
                 2
               </div>
-              <h3 class="card-title mp-0">Преждевременная оптимизация</h3>
+              <h3 class="card-title m-0 p-0">Преждевременная оптимизация</h3>
               <div class="card-text">
                 Вы оптимизируете что-то задолго до того, как в этом появляется
                 необходимость.
               </div>
             </div>
           </a>
-          <a class="nav-link" href="#novelty-error">
+          <a class="nav-link" href="#distortion-of-novelty">
             <div class="nav-card">
               <div class="card-number">
                 3
@@ -114,7 +112,7 @@
               </div>
             </div>
           </a>
-          <a class="nav-link" href="#hyperbolic">
+          <a class="nav-link" href="#hyperbolic-depreciation">
             <div class="nav-card">
               <div class="card-number">
                 4
@@ -127,7 +125,7 @@
               </div>
             </div>
           </a>
-          <a class="nav-link" href="#planning-error">
+          <a class="nav-link" href="#errors-in-planning">
             <div class="nav-card">
               <div class="card-number">
                 5
@@ -143,16 +141,16 @@
       </div>
     </nav>
     <!-- ikea effect -->
-    <section id="ikea-effect" class="ikea-section bg-pattern bg-light">
+    <section id="ikea-effect" class="section bg-pattern bg-light">
       <div class="container">
         <div class="section-row">
-          <div class="section-image mb-100px mr-15px">
-            <img src="images/1.png" alt="two human about laptop">
+          <div class="section-box mb-100px mr-15px">
+            <img class="section-image" src="images/1.png" loading="lazy" alt="two human about laptop">
           </div>
           <div class="section-title ml-15px">
-            <span class="over-title mp-0 txt-dark-50">Когнитивные искажения</span>
+            <span class="over-title m-0 p-0 txt-dark-50">Когнитивные искажения</span>
             <h2 class="title mp-0 txt-dark">Эффект ИКЕА</h2>
-            <p class="under-title mp-0">
+            <p class="under-title m-0 p-0">
               Вы переоцениваете собственные решения, и, как следствие,
               недооцениваете решения других.
             </p>
@@ -160,15 +158,15 @@
         </div>
 
         <div class="section-row bg-brown mb-5px">
-          <h4 class="example-title mp-0 txt-white">как проявляется</h4>
+          <h4 class="example-title m-0 p-0 txt-white txt-bold">как проявляется</h4>
         </div>
         <div class="section-row">
-          <p class="main-text mr-15px">
+          <p class="fb-50per mr-15px">
             Когнитивное искажение называется так из-за того, что потребители
             зачастую предпочитают покупать товары, которые они могут собрать
             сами, а не уже собранные кем-то.
           </p>
-          <p class="main-text ml-15px">
+          <p class="fb-50per ml-15px">
             Мы склонны переоцнивать наши собственные решения и недооценивать
             решения других. Если вы когда-то работали в компании, которая
             использовала тупой внутренний инструмент вместо более удобного
@@ -178,27 +176,27 @@
       </div>
     </section>
     <!-- premature-optimizatioin -->
-    <section id="premature-optimization" class="premature-section txt-white bg-pattern bg-brown">
+    <section id="premature-optimization" class="section txt-white bg-pattern bg-brown">
       <div class="container">
         <div class="section-row">
           <div class="section-title">
-            <span class="over-title mp-0 txt-white-50">Когнитивные искажения</span>
-            <h2 class="title mp-0 txt-white">Преждевременная оптимизация</h2>
-            <p class="under-title mp-0">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+            <span class="over-title m-0 p-0 txt-white-50">Когнитивные искажения</span>
+            <h2 class="title m-0 p-0 txt-white">Преждевременная оптимизация</h2>
+            <p class="under-title m-0 p-0">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
           </div>
-          <div class="section-image mb-100px">
-            <img src="images/2.png" alt="human-launches-rocket">
+          <div class="section-box mb-100px">
+            <img class="section-image" src="images/2.png" loading="lazy" alt="human-launches-rocket">
           </div>
         </div>
         <div class="example-title-block section-row bg-white mb-5px">
-          <h4 class="example-title mp-0 txt-brown">как проявляется</h4>
+          <h4 class="example-title m-0 p-0 txt-brown txt-bold">как проявляется</h4>
         </div>
         <div class="section-row mb-16px">
-          <p class="main-text mr-15px">
+          <p class="fb-50per mr-15px">
             Если вы добавите аэродинамический спойлер к своему
             старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.
           </p>
-          <p class="main-text ml-15px">
+          <p class="fb-50per ml-15px">
             Отличный пример: писать максимально подтюненный и
             высокопроизводительный код для всего лишь экспериментального проекта.
           </p>
@@ -206,32 +204,32 @@
       </div>
     </section>
     <!-- novelty-error -->
-    <section id="distortion-of-novelty" class="distortion-of-novelty-section bg-pattern bg-light">
+    <section id="distortion-of-novelty" class="section bg-pattern bg-light">
       <div class="container">
         <div class="section-row">
-          <div class="section-image mb-100px mr-15px">
-            <img src="images/3.png" alt="human keeps light bulb">
+          <div class="section-box  mb-100px mr-15px">
+            <img class="section-image" src="images/3.png" loading="lazy" alt="human keeps light bulb">
           </div>
           <div class="section-title ml-15px">
-            <span class="over-title mp-0 txt-dark-50">Когнитивные искажения</span>
-            <h2 class="title mp-0 txt-dark">Искажение новизны</h2>
-            <p class="under-title mp-0">
+            <span class="over-title m-0 p-0 txt-dark-50">Когнитивные искажения</span>
+            <h2 class="title m-0 p-0 txt-dark">Искажение новизны</h2>
+            <p class="under-title m-0 p-0">
               Вы даёте более высокую оценку тем событиям, которые произошли
               недавно, и недооцениваете более старые.
             </p>
           </div>
         </div>
         <div class="section-row bg-brown mb-20px">
-          <h4 class="example-title mp-0 txt-white txt-bold">как проявляется</h4>
+          <h4 class="example-title m-0 p-0 txt-white txt-bold">как проявляется</h4>
         </div>
         <div class="section-row">
-          <p class="main-text mr-14px">
+          <p class="fb-50per mr-14px">
             Часто это искажение настигает нас, когда нужно решение проблемы
             и… о! Мы как раз только что решили подобную проблему!
             Давайте использовать это же решение, потому что оно сработало,
             и мы помним как!
           </p>
-          <p class="main-text ml-15px">
+          <p class="fb-50per ml-15px">
             Вы замечаете, что пользуетесь теми же рабочими методиками
             раз за разом? Если да, возможно, вы смотрите на разные проблемы
             под одним и тем же углом.
@@ -240,30 +238,30 @@
       </div>
     </section>
     <!-- hyperbolic-depreciation -->
-    <section id="hyperbolic-depreciation" class="hyperbolic-depreciation-section txt-white bg-pattern bg-brown">
+    <section id="hyperbolic-depreciation" class="section txt-white bg-pattern bg-brown">
       <div class="container">
         <div class="section-row">
           <div class="section-title mr-15px">
-            <p class="over-title mp-0 txt-white-50">Когнитивные искажения</p>
-            <h2 class="title mp-0 txt-white">Гиперболическое обесценивание</h2>
-            <p class="under-title mp-0">Вы гонитесь за немедленной маленькой выгодой
+            <p class="over-title m-0 p-0 txt-white-50">Когнитивные искажения</p>
+            <h2 class="title m-0 p-0 txt-white">Гиперболическое обесценивание</h2>
+            <p class="under-title m-0 p-0">Вы гонитесь за немедленной маленькой выгодой
                и игнорируете более крупную, недоступную сейчас, но доступную в будущем.
             </p>
           </div>
-          <div class="section-image ml-15px mb-100px">
-            <img src="images/4.png" alt="human-about-mountain">
+          <div class="section-box  ml-15px mb-100px">
+            <img class="section-image" src="images/4.png" loading="lazy" alt="human-about-mountain">
           </div>
         </div>
         <div class="example-title-block section-row bg-white mb-5px">
-          <h4 class="example-title mp-0 txt-brown">как проявляется</h4>
+          <h4 class="example-title m-0 p-0 txt-brown txt-bold">как проявляется</h4>
         </div>
         <div class="section-row">
-          <p class="main-text mr-14px">
+          <p class="fb-50per mr-14px">
             Вы когда-нибудь откладывали написание теста? Ловили себя на
             использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается
             гиперболическое обесценивание.
           </p>
-          <p class="main-text ml-15px">
+          <p class="fb-50per ml-15px">
             Немедленная выгода от использования чего-то быстродоступного
             значительно смягчает боль, которую нужно перетерпеть, чтобы
             усвоить правильный синтаксис для перемещения на нужную строчку.
@@ -274,30 +272,30 @@
       </div>
     </section>
     <!-- errors-in-planning -->
-    <section id="errors-in-planning" class="errors-in-planning-section bg-pattern bg-light">
+    <section id="errors-in-planning" class="section bg-pattern bg-light">
       <div class="container">
         <div class="section-row">
-          <div class="section-image mb-100px mr-15px">
-            <img src="images/5.png" alt="human is writing a plan">
+          <div class="section-box  mb-100px mr-15px">
+            <img class="section-image" src="images/5.png" loading="lazy" alt="human is writing a plan">
           </div>
           <div class="section-title ml-15px">
-            <span class="over-title mp-0 txt-dark-50">Когнитивные искажения</span>
-            <h2 class="title mp-0 txt-dark">Ошибка планирования</h2>
-            <p class="under-title mp-0">
+            <span class="over-title m-0 p-0txt-dark-50">Когнитивные искажения</span>
+            <h2 class="title m-0 p-0 txt-dark">Ошибка планирования</h2>
+            <p class="under-title m-0 p-0">
               Неправильно рассчитывать время необходимое для завершения задачи.
             </p>
           </div>
         </div>
         <div class="section-row bg-brown mb-5px">
-          <h4 class="example-title mp-0 txt-white">как проявляется</h4>
+          <h4 class="example-title m-0 p-0 txt-white txt-bold">как проявляется</h4>
         </div>
         <div class="section-row">
-          <p class="main-text mr-14px">
+          <p class="fb-50per mr-14px">
             Одно из искажений, которое должно признать большинство из нас.
              И менеджеры проекта, и сами пользователи продукта — все склонны
              ставить сроки, в которые невозможно закончить запланированное.
           </p>
-          <p class="main-text ml-15px">
+          <p class="fb-50per ml-15px">
             Это отлично выражается в старом афоризме:
             <span class="span">Первые 90% готового кода отнимают первые 90% времени разработки.
             Оставшиеся 10% отнимают вторые 90% времени разработки.</span>
@@ -310,22 +308,22 @@
   <footer class="footer-section">
     <div class="container">
       <div class="section-row bg-primary-dark txt-white mb-72px">
-        <div class="footer-col mr-15px pt-55px pb-55px pl-55px">
-          <h3 class="mp-0 txt-white">Хотите узнать больше?<br>Подпишитесь на обновления</h3>
+        <div class="fb-50per mr-15px pt-55px pb-55px pl-55px">
+          <h3 class="m-0 p-0 txt-white">Хотите узнать больше?<br>Подпишитесь на обновления</h3>
         </div>
-        <div class="footer-col ml-15px pt-38px pb-40px pr-55px">
+        <div class="fb-50per ml-15px pt-38px pb-40px pr-55px">
           <form class="form" action="index.html" method="post">
             <label class="label" for="email">Электронная почта</label>
             <input class="email-input" id="email" type="email" name="email" value="" placeholder="Ваша электронная почта">
             <input class="send-btn" type="submit" value="">
           </form>
-          <p class="form-small-text mp-0">Подписываясь, вы принимаете <a class="txt-white" href="#">правила сервиса</a></p>
+          <p class="fs-12px m-0 p-0">Подписываясь, вы принимаете <a class="txt-white" href="#">правила сервиса</a></p>
         </div>
       </div>
       <div class="section-row df-column">
-        <p class="txt-center fs-14px mp-0 mb-14px">&copy; 2021 Роман Соколенко</p>
-        <p class="txt-center fs-14px mp-0"> По материалам статьи <a class="txt-blue" target="blank" href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
-        <p class="txt-center fs-14px"> <a class="author-info txt-blue" target="blank" href="https://ru.hexlet.io/my">Курсы программирования Hexlet</a> </p>
+        <p class="txt-center fs-14px m-0 p-0 mb-14px">&copy; 2021 Роман Соколенко</p>
+        <p class="txt-center fs-14px m-0 p-0"> По материалам статьи <a class="txt-blue" target="_blank" href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
+        <p class="txt-center fs-14px"> <a class="author-info txt-blue" target="_blank" href="https://ru.hexlet.io/my">Курсы программирования Hexlet</a> </p>
       </div>
     </div>
   </footer>

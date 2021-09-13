@@ -34,10 +34,6 @@
   margin-bottom: 14px;
 }
 
-.footer-col {
-  flex-basis: 50%;
-}
-
 .label {
   display: block;
 
@@ -77,10 +73,16 @@
   background-position: center;
 }
 
-.form-small-text {
+.fs-12px {
   font-size: 12px;
 }
 
 .df-column {
   flex-direction: column;
+}
+
+.author-info {
+  margin-bottom: 16px;
+
+  line-height: 1.6;
 }
