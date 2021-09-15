@@ -6,7 +6,7 @@
 @import "navigation.css";
 
 @font-face {
-  font-weight: normal;
+  font-weight: 400;
   font-family: "Neucha";
   src:
     local("Neucha"),
@@ -14,7 +14,7 @@
 }
 
 @font-face {
-  font-weight: normal;
+  font-weight: 400;
   font-family: "OpenSans";
   src:
     local("OpenSans"),
@@ -22,7 +22,7 @@
 }
 
 @font-face {
-  font-weight: bold;
+  font-weight: 700;
   font-family: "OpenSans";
   src:
     local("OpenSans-bold"),
