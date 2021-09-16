@@ -81,10 +81,6 @@
   flex-direction: column;
 }
 
-.link-white:link {
-  color: #fff;
-}
-
 .author-info {
   margin-bottom: 16px;
 

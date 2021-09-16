@@ -30,6 +30,10 @@ h1 {
   font-size: 72px;
 }
 
+a {
+  color: #1085C5;
+}
+
 iframe {
   border: none;
 }
